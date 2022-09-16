@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/todo.jpg');
+}
+
+input, button {
+    margin: 1%;
+}
+
+button {
+    background-color: rgba(81, 173, 130, 0.801);
+    font-size: 100%;
+    border-radius: 2px;
+    border: solid 1px;
+    border-color: rgb(4, 36, 36);
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0 1%;
+    font-size: 80%;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: rgb(119, 238, 198);
+}
+
+button:active {
+    background-color: rgb(72, 146, 146);
+}
+
+div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 2%;
+
+}
+
+#todo-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#addButton {
+    background-color: rgba(92, 90, 168, 0.836);
+    font-weight: 800;
+    padding: 0 2%;
+    font-size: 100%;
+    border: solid 2px;
+    border-color: rgb(4, 36, 36);
+    margin: 1% 5% 1% 1%;
+}
+
+#addButton:hover {
+    background-color: rgb(153, 153, 233);
+}
+
+#addButton:active {
+    background-color: rgb(51, 51, 112);
+}
+
+#inputs {
+    margin-top: 7.5%;
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    width: 1.08em;
+    height: 1.08em;
+    margin: 1%;
+}
+
+input[type="date"] { 
+    font-weight: 600;
+    font-style: italic;
+  }
+
+@media all and (min-width: 675px) {
+    #inputs {
+        margin: 0;
+        min-height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
