@@ -11,15 +11,15 @@
       } else {
           todos = [{
           title: 'Get groceries',
-          dueDate: '2021-10-04',
+          dueDate: '08-25-2022',
           id: 'id1'
         }, {
           title: 'Wash car',
-          dueDate: '2021-02-03',
+          dueDate: '09-15-2022',
           id: 'id2'
         }, {
           title: 'Make dinner',
-          dueDate: '2021-03-04',
+          dueDate: '07-29-2022',
           id: 'id3'
         }];
       }
