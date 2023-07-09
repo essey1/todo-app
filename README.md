@@ -1,6 +1,6 @@
 # To-Do List
 
-Here is a link: https://essey1.github.io/Project-03/
+Here is a link: https://essey1.github.io/todo-app
 
 A web application which takes input to generate a to-do list and lets you manage them.
 
